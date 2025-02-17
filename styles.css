@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f8f8;
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: left;
+    padding: 20px;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.menu {
+    font-size: 26px;
+    text-decoration: underline;
+    color: black;
+}
+
+main {
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+main h1 {
+    margin: 50px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 0.1px;
+    background-color: #686868;
+}
+.about-btn {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    font-size: 26px;
+    border: 1px solid black;
+    background: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.about-btn:hover {
+    background: black;
+    color: white;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 560px;
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+    padding-left: 40px;
+    position: relative;
+}
+
+.index-number {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.index-number .line {
+    width: 40px;
+    height: 1px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+
+.image-side-heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.image-section img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
